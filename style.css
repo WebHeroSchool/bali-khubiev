@@ -1,0 +1,78 @@
+@font-face{font-family:'MuseoSansCyrl';src:url(fonts/MuseoSansCyrl-300.woff2),url(fonts/MuseoSansCyrl-300.woff);font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:'PTSerif';src:url(fonts/PTSerif-Bold.woff2),url(fonts/PTSerif-Bold.woff);font-weight:700;font-style:normal;font-display:swap}
+input{display:none}.main__title{display:flex;font-family:'PTSerif',sans-serif;font-size:200px;color:#f8eee4;margin-top:77px;margin-left:135px;opacity:.4}
+.main__title2{font-size:70px;font-family:'PTSerif',sans-serif;color:#f8eee4;margin-top:-266px;margin-left:26%}
+p{font-family:'MuseoSansCyrl',sans-serif;font-size:16px;margin-left:154px;margin-right:185px;color:#f8eee4;margin-top:-46px;margin-bottom:37px}
+body{background:url(img/iswanto1.png) no-repeat}.logo{background:url(img/Vector.svg) no-repeat;position:absolute;width:104px;height:39px;left:142px;top:63px}
+nav{font-family:'MuseoSansCyrl',sans-serif;font-size:16px;width:32%;margin-top:72px;display:flex;margin-left:68%}
+.menu__item{margin-right:27px;color:#f8eee4;position:relative;text-decoration:none}.menu__item:last-child{margin-right:0}
+.menu__item_active{margin-right:27px;color:#f8eee4;text-decoration:none}.menu__item:hover{opacity:.7}
+.menu__item:hover::after,.menu__item_active::after{opacity:1;width:100%}.menu__item::after,.menu__item_active::after{position:absolute;display:block;content:'';width:0;left:0;width:0%;height:3px;background:#f8eee4;opacity:0s;transition:opacity .7s,width .5s}
+.menu__item{margin-right:27px;color:#f8eee4;text-decoration:none}.menu__item{margin-right:27px;color:#f8eee4;text-decoration:none}
+.menu__item{margin-right:27px;color:#f8eee4;text-decoration:none}.main__button{padding-bottom:12px;padding-top:12px;padding-right:64px;padding-left:64px;border-radius:48px;background:#d4bea3;font-family:'MuseoSansCyrl',sans-serif;font-size:16px;color:#f8eee4;margin-left:150px;text-decoration:none;transition:opacity .5s}
+.header{height:45px}.content{width:735px;float:left;min-height:500px}.sidebar1{background:url(img/aron-visuals-1.png) no-repeat;min-height:460px;width:250px;float:left;margin-top:160px}
+.sidebar2{background:url(img/123.png) no-repeat;min-height:460px;width:226px;float:left;margin-top:174px}.sidebar3{background:url(img/sebastian1.png) no-repeat;min-height:460px;width:149px;float:left;margin-top:174px;margin-right:-150px}
+@media (max-width:1290px){nav{margin-right:33px}.sidebar1{background:url(img/aron-visuals-1.png) no-repeat;min-height:304px;width:250px;margin-top:-27%;float:left;margin-left:57%}
+.sidebar2{background:url(img/123.png) no-repeat;min-height:345px;width:226px;float:left;margin-top:-26%;margin-left:77%}.sidebar3{background:url(img/sebastian1.png) no-repeat;min-height:280px;width:147px;float:left;margin-top:-26%}.content{margin-left:-1%}}
+@media (max-width:1245px){nav{margin-right:-13px;width:35%}.sidebar1{background:url(img/aron-visuals-1.png) no-repeat;min-height:304px;width:250px;margin-top:-28%;float:left;margin-left:59%}
+.sidebar2{background:url(img/123.png) no-repeat;min-height:345px;width:230px;float:left;margin-top:-27%;margin-left:80%}.sidebar3{background:url(img/sebastian1.png) no-repeat;min-height:280px;width:147px;float:left;margin-top:-27%}.content{margin-left:-2%}}
+@media (max-width:1210px){.sidebar1{background:url(img/aron-visuals-1.png) no-repeat;min-height:304px;width:250px;margin-top:-29%;float:left;margin-left:61%}
+.sidebar2{background:url(img/123.png) no-repeat;min-height:345px;width:230px;float:left;margin-top:-28%;margin-left:82%}.sidebar3{background:url(img/sebastian1.png) no-repeat;min-height:280px;width:147px;float:left;margin-top:-28%}.content{margin-left:-3%}}
+@media (max-width:1160px){.logo{margin-left:-20px}.menu__item{margin-right:27px;color:#f8eee4;text-decoration:none}nav{margin-right:-65px;width:40%}.menu__box{margin-left:80%}.sidebar1{background:url(img/aron-visuals-1.png) no-repeat;min-height:304px;width:250px;margin-top:-30%;float:left;margin-left:63%}
+.sidebar2{background:url(img/123.png) no-repeat;min-height:345px;width:230px;float:left;margin-top:-29%;margin-left:85%}.sidebar3{background:url(img/sebastian1.png) no-repeat;min-height:280px;width:147px;float:left;margin-top:-29%}.content{margin-left:-4%}}
+@media (max-width:1100px){.logo{margin-left:-20px}nav{margin-right:-100px}.sidebar1{background:url(img/aron-visuals-1.png) no-repeat;min-height:304px;width:250px;margin-top:-32%;float:left;margin-left:67%}
+.sidebar2{background:url(img/123.png) no-repeat;min-height:345px;width:230px;float:left;margin-top:-30%;margin-left:90%}.sidebar3{background:url(img/sebastian1.png) no-repeat;min-height:280px;width:147px;float:left;margin-top:-30%}.content{margin-left:-4%}}
+@media (max-width:1060px){html{margin-left:-85px}.logo{margin-left:-50px}nav{margin-right:-12%}.sidebar1{background:url(img/aron-visuals-1.png) no-repeat;min-height:304px;width:250px;margin-top:-30%;float:left;margin-left:64%}
+.sidebar2{background:url(img/123.png) no-repeat;min-height:345px;width:230px;float:left;margin-top:-29%;margin-left:87%}.sidebar3{background:url(img/sebastian1.png) no-repeat;min-height:280px;width:140px;float:left;margin-top:-29%}.content{margin-left:-1%}}
+@media (max-width:1024px){html{margin-left:-160px}.logo{margin-left:-101px}nav{width:34%;margin-right:7px;margin-top:74px}.menu__box{margin-left:67%}.sidebar1{background:url(img/aron-visuals-1.png) no-repeat;min-height:304px;width:250px;margin-top:-29%;float:left;margin-left:57%}
+.sidebar2{background:url(img/123.png) no-repeat;min-height:345px;width:229px;float:left;margin-top:-28%;margin-left:78%}.sidebar3{background:url(img/sebastian1.png) no-repeat;min-height:280px;width:37px;float:left;margin-top:-28%}.content{margin-left:5%}}
+@media (max-width:982px){.menu__box{margin-left:60%}nav{width:38%}}
+@media (max-width:980px){nav{margin-right:7px;margin-top:74px}.menu__box{margin-left:66%}.sidebar1{background:url(img/aron-visuals-1.png) no-repeat;min-height:304px;width:250px;margin-top:-29%;float:left;margin-left:61%}
+.sidebar2{background:url(img/123.png) no-repeat;min-height:345px;width:229px;float:left;margin-top:-28%;margin-left:83%}.sidebar3{background:url(img/sebastian1.png) no-repeat;min-height:280px;width:37px;float:left;margin-top:-28%}}
+@media (max-width:930px){nav{margin-right:-100px;margin-top:74px}.menu__box{margin-left:71%}.sidebar1{background:url(img/aron-visuals-1.png) no-repeat;min-height:304px;width:250px;margin-top:-31%;float:left;margin-left:64%}
+.sidebar2{background:url(img/123.png) no-repeat;min-height:345px;width:229px;float:left;margin-top:-30%;margin-left:87%}.sidebar3{background:url(img/sebastian1.png) no-repeat;min-height:280px;width:37px;float:left;margin-top:-30%}}
+@media (max-width:880px){nav{margin-right:-12%;margin-top:74px}.menu__box{width:45%;margin-left:71%}.sidebar1{background:url(img/aron-visuals-1.png) no-repeat;min-height:304px;width:250px;margin-top:-33%;float:left;margin-left:66%}
+.sidebar2{background:url(img/123.png) no-repeat;min-height:345px;width:229px;float:left;margin-top:-32%;margin-left:90%}.sidebar3{background:url(img/sebastian1.png) no-repeat;min-height:280px;width:37px;float:left;margin-top:-32%}}
+@media (max-width:825px){nav{margin-right:-16%;margin-top:74px}.menu__box{margin-left:76%}.sidebar1{background:url(img/aron-visuals-1.png) no-repeat;min-height:304px;width:250px;margin-top:-35%;float:left;margin-left:69%}
+.sidebar2{background:url(img/123.png) no-repeat;min-height:345px;width:229px;float:left;margin-top:-34%;margin-left:94%}.sidebar3{background:url(img/sebastian1.png) no-repeat;min-height:280px;width:37px;float:left;margin-top:-34%}}
+@media (max-width:780px){nav{margin-right:-21%;margin-top:74px}.sidebar1{background:url(img/aron-visuals-1.png) no-repeat;min-height:304px;width:250px;margin-top:-37%;float:left;margin-left:70%}.sidebar2{background:url(img/123.png) no-repeat;min-height:345px;width:229px;float:left;margin-top:-35%;margin-left:97%}
+.sidebar3{background:url(img/sebastian1.png) no-repeat;min-height:280px;width:37px;float:left;margin-top:-35%}}
+@media (max-width:768px){.main__title{display:flex;font-family:'PTSerif',sans-serif;font-size:190px;color:#f8eee4;margin-top:77px;margin-left:165px;opacity:.4}.main__title2{font-size:69px;font-family:PTSerif,sans-serif;color:#f8eee4;margin-top:-253px;margin-left:29%}
+.content{margin-left:-1%}.main__button{font-size:16px;margin-left:246px}p{text-align:center;font-family:'MuseoSansCyrl',sans-serif;font-size:16px;margin-left:169px;margin-right:170px;color:#f8eee4;margin-top:-33px;margin-bottom:45px}
+html{margin-left:0}nav{display:block;position:fixed;visibility:hidden;top:0;left:-100%;width:300px;height:100%;margin:0;padding:80px 0;list-style:none;text-align:center;background-color:#eceff1;box-shadow:1px 0 6px rgb(0 0 0 / 20%);transition-duration:.25s}
+.sidebar1{display:none;background:url(img/aron-visuals-1.png) no-repeat;min-height:304px;width:250px;margin-top:-37%;float:left;margin-left:70%}.sidebar2{display:none;background:url(img/123.png) no-repeat;min-height:345px;width:229px;float:left;margin-top:-35%;margin-left:97%}
+.sidebar3{display:none;background:url(img/sebastian1.png) no-repeat;min-height:280px;width:37px;float:left;margin-top:-35%}.menu__btn{display:flex;align-items:center;position:fixed;top:60px;right:25px;width:24px;height:25px;cursor:pointer;z-index:1}
+.menu__btn>span,.menu__btn>span::after,.menu__btn>span::before{display:block;position:absolute;width:100%;height:2px;background-color:#fcf5ed;transition-duration:.25s}
+.menu__btn>span::before{content:'';top:-8px}.menu__btn>span::after{content:'';top:8px}
+.menu__box{display:block;position:fixed;visibility:hidden;top:0;left:-100%;width:300px;height:100%;margin:0;padding:80px 0;list-style:none;text-align:center;background-color:#eceff1;box-shadow:1px 0 6px rgba(0,0,0,.2);transition-duration:.25s}
+.menu__item{display:block;padding:12px 24px;margin-right:auto;color:#000;font-family:'MuseoSansCyrl',sans-serif;font-size:30px;font-weight:600;text-decoration:none;transition-duration:.25s}.menu__item:hover{background-color:#cfd8dc}
+.menu__item{display:block;padding:12px 24px;margin-right:auto;color:#000;font-family:'MuseoSansCyrl',sans-serif;font-size:30px;font-weight:600;text-decoration:none;transition-duration:.25s}
+.menu__item{display:block;padding:12px 24px;margin-right:auto;color:#000;font-family:'MuseoSansCyrl',sans-serif;font-size:30px;font-weight:600;text-decoration:none;transition-duration:.25s}
+.menu__item{display:block;padding:12px 24px;margin-right:auto;color:#000;font-family:'MuseoSansCyrl',sans-serif;font-size:30px;font-weight:600;text-decoration:none;transition-duration:.25s}
+.menu__item{display:block;padding:12px 24px;margin-right:auto;color:#000;font-family:'MuseoSansCyrl',sans-serif;font-size:30px;font-weight:600;text-decoration:none;transition-duration:.25s}
+#menu__toggle:checked~.menu__btn>span{transform:rotate(45deg)}#menu__toggle:checked~.menu__btn>span::before{top:0;transform:rotate(0)}#menu__toggle:checked~.menu__btn>span::after{top:0;transform:rotate(90deg)}
+#menu__toggle:checked~.menu__box{visibility:visible;left:0}}
+@media (max-width:380px){body{background:url(img/iswanto2.png) no-repeat}
+.main__title{display:flex;font-family:'PTSerif',sans-serif;font-size:170px;color:#f8eee4;margin-top:80px;margin-left:51%;opacity:.4}
+.main__title2{font-size:60px;font-family:'PTSerif',sans-serif;color:#f8eee4;margin-top:-211px;margin-left:430px}p{font-family:'MuseoSansCyrl',sans-serif;color:#f8eee4;margin-top:-15px;margin-bottom:49px}
+.main__subtitle{text-align:center;margin-left:395px;margin-right:55px;font-size:18px}
+.main__button{font-size:16px;margin-left:427px}.content{margin-left:-100%}
+.logo{margin-top:-21px;margin-left:-101px}
+.menu__btn{margin-top:-7px;margin-right:17px}}
+@media (max-width:365px){.main__title{margin-left:49%}.main__title2{margin-left:405px}}
+@media (max-width:350px){.main__title{margin-left:46%}.main__title2{margin-left:398px}
+.menu__btn{margin-top:-8px;margin-right:25px}.main__subtitle{margin-left:369px;margin-right:80px}
+.main__button{margin-left:54%}}
+@media (max-width:337px){.main__title{margin-left:44%}.main__title2{margin-left:372px}
+.menu__btn{margin-top:-8px;margin-right:50px}.main__subtitle{margin-left:360px;margin-right:90px}
+.main__button{font-size:16px;margin-left:400px}}
+@media (max-width:317px){.main__title{margin-left:41%}.main__title2{margin-left:350px}
+.menu__btn{margin-top:-8px;margin-right:60px}.main__subtitle{margin-left:336px;margin-right:112px}
+.main__button{font-size:16px;margin-left:366px}}
+@media (max-width:300px){.main__title{margin-left:39%}.main__title2{margin-left:335px}
+.menu__btn{margin-top:-8px;margin-right:80px}.main__subtitle{margin-left:315px;margin-right:131px}
+.main__button{font-size:16px;margin-left:345px}}
+@media (max-width:280px){.main__title{margin-left:37%}.main__title2{margin-left:318px}
+.menu__btn{margin-top:-8px;margin-right:95px}.main__subtitle{margin-left:296px;margin-right:150px}
+.main__button{font-size:16px;margin-left:330px}}
+@media (max-width:268px){.menu__btn{margin-top:-8px;margin-right:108px}}
